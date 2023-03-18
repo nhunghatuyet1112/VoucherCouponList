@@ -1,0 +1,240 @@
+.filter-table {
+    position: relative;
+    width: 85%;
+    top: 35px;
+    left: 14%;
+    /* border: 1px solid black; */
+}
+
+.filter-container{
+    position: relative;
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #BDC2D2;
+}
+
+.delete-filter {
+    position: relative;
+    float: left;
+    padding-right: 30px;
+}
+
+.delete-filter div {
+    position: relative;
+    display: flex;
+}
+
+.delete-filter span{
+    position: relative;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5A6276;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.delete-btn{
+    position: relative;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #008000;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.search-filter {
+    position: relative;
+    float: left;
+}
+
+.search-filter label {
+    position: relative;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    width: 452px;
+    height: 29px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.input-container img {
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+}
+
+.input-container input {
+    border: none;
+    width: 400px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #26282E;
+    opacity: 0.4
+}
+
+.input-container input:focus {
+    outline:none;
+}
+
+.btn-container {
+    position: relative;
+    display: flex;
+    float: left;
+    width: 40px;
+    height: 29px;
+    margin-top: 31px;
+    margin-left: 10px;
+    background-color: #008000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-container i {
+    position: relative;
+    margin: 5px;
+    margin-right: 0px;
+}
+
+.btn-container button {
+    position: relative;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #008000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table-container {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing:0 10px;
+}
+
+.group-th {
+    width: 35%;
+}
+
+.tdn-th {
+    width: 20%;
+}
+
+.description-th {
+    width: 30%;
+}
+
+.btn-th {
+    width: 2%;
+}
+
+th{
+    text-align: left;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5A6276;
+    padding-left: 10px;
+}
+
+td {
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.cell1 td, .cell2 td{
+    position: relative;
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5A6276;
+}
+
+.cell1 i {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+}
+
+.cell2 i {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5A6276;
+}
+
+.cell3 div {
+    position: relative;
+    width: 87px;
+    height: 24px;
+    background-color: #008000;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.cell3 span {
+    font-family: 'Mulish';
+    background-color: #008000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cell4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5A6276;
+    border-right: 1px solid rgba(189, 194, 210, 0.3);
+}
+
+.dots-btn {
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+

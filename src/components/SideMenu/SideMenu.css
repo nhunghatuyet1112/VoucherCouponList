@@ -1,0 +1,105 @@
+.side-menu {
+    position: fixed;
+    width: 13%;
+    height: 100%;
+    background-color: #5A6276;
+}
+
+.side-menu hr {
+    position: relative;
+    top: 50px;
+}
+
+.side-menu a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.img {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sale {
+    display: flex;
+    position: relative;
+    top: 60px;
+    padding-left: 20px;
+}
+
+.sale a{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.web-info {
+    position: relative;
+    display: flex;
+    top: 90px;
+    padding-left: 20px ;
+}
+
+.web-info a{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.policies {
+    position: relative;
+    top: 120px;
+    padding-left: 20px ;
+    padding-bottom: 10px;
+    background-color: rgba(26, 35, 52, 0.3);
+}
+
+.policies a{
+    display: block;
+}
+
+.policy {
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+}
+
+.policy a {
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.policy-children {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.policy-children a {
+    padding: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+}
+
+#coupon {
+    color: #FFFFFF;
+}
+
+.excel-report {
+    position: relative;
+    display: flex;
+    top: 140px;
+    padding-left: 20px ;
+}
+
+.excel-report a {
+    padding-left: 20px;
+    padding-top: 2px;
+}

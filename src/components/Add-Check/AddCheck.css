@@ -1,0 +1,156 @@
+.add-check {
+    position: relative;
+    width: 85%;
+    height: 45px;
+    top: 25px;
+    left: 14%;
+    border-bottom: 1px solid #BDC2D2;
+}
+
+.check {
+    position: relative;
+    display: flex;
+    float: left;
+}
+
+.check-voucher {
+    position: relative;
+    float: left;
+    width: 156px;
+    height: 28px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 14px;
+}
+
+.check-voucher:hover {
+    border: 2px solid #008000;
+}
+
+.voucher-label {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #959DB3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkmark img {
+    position: relative;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 80%;
+    height: 16px;
+    width: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+
+.voucher-label input:checked ~ .checkmark {
+    background-color: #008000;
+    border: 1px solid #008000;
+    border-radius: 3px;
+}
+
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.voucher-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-coupon {
+    position: relative;
+    float: left;
+    width: 121px;
+    height: 28px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 14px;
+    margin-left: 10px;
+}
+
+.check-coupon:hover {
+    border: 2px solid #008000;
+}
+
+.coupon-label {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #959DB3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.coupon-label input:checked ~ .checkmark {
+    background-color: #008000;
+    border: 1px solid #008000;
+    border-radius: 3px;
+}
+
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.coupon-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.add {
+    position: relative;
+    width: 94px;
+    height: 32.73px;
+    float: right;
+    display: flex;
+    background-color: #1A6634;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-icon {
+    position: relative;
+    margin: 5px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.add-btn {
+    position: relative;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background-color: #1A6634;
+    cursor: pointer;
+
+}
+
+.arrow-icon{
+    margin-top: 3px;
+    cursor: pointer;
+}

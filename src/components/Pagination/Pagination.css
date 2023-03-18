@@ -1,0 +1,86 @@
+.pagination-container{
+    position: relative;
+    width: 85%;
+    left: 14%;
+    top: 35px;
+}
+
+.items-per-page {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+
+.items-per-page label {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+}
+
+.items-per-page select {
+    margin-left: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+    border: none;
+    background-color: #EDEFF3;
+}
+
+.items-per-page select:focus {
+   outline: none;
+}
+
+.page {
+    position: relative;
+    float: right; 
+}
+
+.page a{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959DB3;
+}
+
+.first-page {
+    background-color: #F4F5F7;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F4F5F7;
+    border-radius: 5px;
+}
+
+.prev-page a {
+    background-color: #F4F5F7;
+    border-radius: 3px;
+}
+
+#active {
+    color: #FFFFFF;
+    background-color: #959DB3;
+    border-radius: 3px;
+}
+
+.next-page a, .last-page {
+    background-color: #FFFFFF;
+    color: #959DB3;
+    border-radius: 3px;
+}
+
